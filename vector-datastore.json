@@ -1,0 +1,19 @@
+{
+    "@odata.context": "https://{{aisearchname}}.search.windows.net/$metadata#datasources/$entity",
+    "@odata.etag": "\"0x8DC49508451CDDF\"",
+    "name": "vector-{{botName}}-datasource",
+    "description": null,
+    "type": "azureblob",
+    "subtype": null,
+    "credentials": {
+      "connectionString": "{{connectionString}}"
+    },
+    "container": {
+      "name": "{{container}}",
+      "query": ""
+    },
+    "dataChangeDetectionPolicy": null,
+    "dataDeletionDetectionPolicy": null,
+    "encryptionKey": null,
+    "identity": null
+  }
