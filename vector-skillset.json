@@ -1,5 +1,4 @@
 {
-    "@odata.context": "https://{{aisearchname}}.search.windows.net/$metadata#skillsets/$entity",
     "name": "vector-{{botName}}-skillset",
     "description": "Skillset to chunk documents and generate embeddings",
     "skills": [
