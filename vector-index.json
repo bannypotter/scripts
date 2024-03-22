@@ -1,5 +1,4 @@
 {
-  "@odata.context": "https://{{searchName}}.search.windows.net/$metadata#indexes/$entity",
   "name": "vector-{{botName}}",
   "defaultScoringProfile": null,
   "fields": [
