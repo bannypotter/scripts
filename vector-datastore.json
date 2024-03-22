@@ -1,5 +1,4 @@
 {
-    "@odata.context": "https://{{aisearchname}}.search.windows.net/$metadata#datasources/$entity",
     "name": "vector-{{botName}}-datasource",
     "description": null,
     "type": "azureblob",
