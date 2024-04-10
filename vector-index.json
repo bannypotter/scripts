@@ -1,5 +1,5 @@
 {
-  "name": "vector-{{botName}}",
+  "name": "{{indexName}}",
   "defaultScoringProfile": null,
   "fields": [
     {
@@ -79,7 +79,7 @@
       "searchAnalyzer": null,
       "analyzer": null,
       "dimensions": 1536,
-      "vectorSearchProfile": "vector-{{botName}}-profile",
+      "vectorSearchProfile": "{{indexName}}-profile",
       "synonymMaps": []
     },
     {
@@ -161,10 +161,10 @@
     "b": null
   },
   "semantic": {
-    "defaultConfiguration": "vector-{{botName}}-semantic-configuration",
+    "defaultConfiguration": "{{indexName}}-semantic-configuration",
     "configurations": [
       {
-        "name": "vector-{{botName}}-semantic-configuration",
+        "name": "{{indexName}}-semantic-configuration",
         "prioritizedFields": {
           "titleField": {
             "fieldName": "title"
@@ -182,7 +182,7 @@
   "vectorSearch": {
     "algorithms": [
       {
-        "name": "vector-{{botName}}-algorithm",
+        "name": "{{indexName}}-algorithm",
         "kind": "hnsw",
         "hnswParameters": {
           "metric": "cosine",
@@ -195,14 +195,14 @@
     ],
     "profiles": [
       {
-        "name": "vector-{{botName}}-profile",
-        "algorithm": "vector-{{botName}}-algorithm",
-        "vectorizer": "vector-{{botName}}-vectorizer"
+        "name": "{{indexName}}-profile",
+        "algorithm": "{{indexName}}-algorithm",
+        "vectorizer": "{{indexName}}-vectorizer"
       }
     ],
     "vectorizers": [
       {
-        "name": "vector-{{botName}}-vectorizer",
+        "name": "{{indexName}}-vectorizer",
         "kind": "azureOpenAI",
         "azureOpenAIParameters": {
           "resourceUri": "https://{{azureopenaiName}}.openai.azure.com",

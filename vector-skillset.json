@@ -1,5 +1,5 @@
 {
-    "name": "vector-{{botName}}-skillset",
+    "name": "{{skillsetName}}",
     "description": "Skillset to chunk documents and generate embeddings",
     "skills": [
       {
@@ -53,7 +53,7 @@
     "indexProjections": {
       "selectors": [
         {
-          "targetIndexName": "vector-{{botName}}",
+          "targetIndexName": "{{indexName}}",
           "parentKeyFieldName": "parent_id",
           "sourceContext": "/document/pages/*",
           "mappings": [

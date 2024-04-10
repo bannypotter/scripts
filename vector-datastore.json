@@ -1,5 +1,5 @@
 {
-    "name": "vector-{{botName}}-datasource",
+    "name": "{{datasourceName}}",
     "description": null,
     "type": "azureblob",
     "subtype": null,

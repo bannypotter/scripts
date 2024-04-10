@@ -1,9 +1,9 @@
 {
-    "name": "vector-{{botName}}-indexer",
+    "name": "{{indexerName}}",
     "description": null,
-    "dataSourceName": "vector-{{botName}}-datasource",
-    "skillsetName": "vector-{{botName}}-skillset",
-    "targetIndexName": "vector-{{botName}}",
+    "dataSourceName": "{{dataSourceName}}",
+    "skillsetName": "{{skillsetName}}",
+    "targetIndexName": "{{indexName}}",
     "disabled": null,
     "schedule": {
       "interval": "PT1H",
