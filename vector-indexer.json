@@ -1,7 +1,7 @@
 {
     "name": "{{indexerName}}",
     "description": null,
-    "dataSourceName": "{{dataSourceName}}",
+    "dataSourceName": "{{datasourceName}}",
     "skillsetName": "{{skillsetName}}",
     "targetIndexName": "{{indexName}}",
     "disabled": null,
